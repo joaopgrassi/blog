@@ -16,7 +16,7 @@ The database team at my current job had successfully integrated the databases in
 
 The "adding databases into source control" statement is comprised of basically adding all the objects to source control. E.g. Tables, Views, Procedures and so on. Apart from adding database objects, there were also a couple of Tables identified as "Enum" tables. These tables are those that all of us developers are very familiar with. They usually contain lookup data, like Statuses and Countries.
 
-{{< figure src="/posts/2018/enumtable.png" align="center" alt="Rows of an enum table in SQL Server" caption="An example of an Enum table" >}}
+![Rows of an enum table in SQL Server](/posts/2018/enumtable.png "An example of an Enum table")
 
 **The problem started here**: We have several data centers and these enum data should be, of course, the same everywhere. At this point, when someone wanted a new value available in production, they would add it, `commit` and `push`. Then, open a ticket with the database team so they could deploy the new value everywhere. As you are probably thinking, this is.. let's say, not very efficient.
 

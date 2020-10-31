@@ -58,7 +58,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 This will clone the repo and replace the existing `~/.zshrc` with a template from `oh-my-zsh`.
 
-![Installing oh-my-zsh](/posts/2018/install-oh-my-zsh.png)
+![Installing oh-my-zsh](/posts/2018/install-oh-my-zsh.png "Installing oh-my-zsh")
 
 ## Configuring zsh/oh-my-zsh
 
@@ -89,7 +89,7 @@ ZSH_THEME="agnoster"
 
 Save it and restart your Ubuntu shell again. 
 
-![Broken Theme](/posts/2018/broken-theme.png)
+![Broken Theme](/posts/2018/broken-theme.png "Broken theme")
 
 Now was the tricky part while I was doing this on my laptop. After installing the theme, I got a totally broken shell (as shown in the image), with weird fonts and missing icons. That was expected due to missing Powerline Fonts, but even after installing them on Ubuntu the Theme was still broken. I tried several things and couldn't make it work. Since we will run it with ConEmu, I didn't want to spend more time on it. The Ubuntu shell is very limited anyway so.. not a big deal.
 
@@ -131,7 +131,7 @@ eval `dircolors ~/.dircolors`
 ```
     
 We have nice colors now :)
-![Adding Directory Colors](/posts/2018/working-theme.jpg)
+![Adding directory colors](/posts/2018/working-theme.jpg "Adding directory colors")
 
 
 ## Setting Bash on Ubuntu task in ConEmu
@@ -143,7 +143,7 @@ Open ConEmu, and go to `Settings`. Navigate on the left-menu: `Startup > Tasks`.
 3. For the `command` use this `%windir%\system32\bash.exe ~ -cur_console:p`. This will start bash under the user home directory. Since we already configured `zsh` to run by default, this is enough.
 
 Open the new task on ConEmu and... Voalá!
-![Figure 4 - We're done! (Now you can brag about it as well)](/posts/2018/zsh-final.png)
+![View of the terminal configured](/posts/2018/zsh-final.png "We're done! (you can brag about it as well 😛)")
 
 Nice command look, lots of git shortcuts and much more productivity. Couldn't enjoy this more.
 

@@ -39,7 +39,7 @@ The idea is pretty simple: You create *Rules* for your environments. A Rule cont
 
 * **Operator**: The operator is what the extension will use combined with the URL provided to find the tab. The extension acts on the `location.href` and applies the operators on it. If it matches, then we have a Rule to apply! An example of an Operator could be `Starts With` or a `Regex expression`. The extension supports more, of course.
 
-![URL operator](/posts/2018/url_operator.jpg)
+![A screenshot of the URL operator in action](/posts/2018/url_operator.jpg "URL operator")
 
 
 ## What can I customize on my Tab?
@@ -54,7 +54,7 @@ What we could do then? Basically 3 things:
 
 All of this so we could do this at the end:
 
-![Simulating a production website](/posts/2018/prod_google.jpg)
+![Simulating a production website](/posts/2018/prod_google.jpg "Simulating a production website")
 
 
 Pretty cool, huh? Of couse, you don't have to use all three customizations. You can pick them as it make sense for you.
