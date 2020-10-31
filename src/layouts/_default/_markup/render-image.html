@@ -1,0 +1,14 @@
+<style>
+.img-center {
+  display: block;
+  margin: 0.7rem auto;
+}
+.img-caption {
+  text-align: center;
+}
+</style>
+
+<figure>
+    <img class="img-center" src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy">
+    <figcaption class="img-caption">{{ .Title }}</figcaption>
+</figure>
