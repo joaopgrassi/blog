@@ -75,7 +75,7 @@ I'm not going into too much details of what each node do since the documentation
 
 ### The final script looks like this:
 
-```powershell
+```shell
 param (   
     [Parameter(Mandatory = $true)]
     [string]
