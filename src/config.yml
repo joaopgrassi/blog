@@ -20,9 +20,6 @@ params:
   defaultTheme: auto
   ShowShareButtons: false
   displayFullLangName: true
-  # images: ""
-  # assets:
-  #   favicon: '<path / external url>'
 
 taxonomies:
   category: categories

@@ -1,0 +1,66 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Title -->
+<title>{{ if .IsHome }}{{else}}{{ if .Title }}{{ .Title }} - {{ end }}{{end}}{{ .Site.Title }}</title>
+<!-- Meta -->
+<meta name="keywords" content="{{ if .Params.keywords -}}
+    {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
+    {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}" />
+<meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if .IsPage}}
+    {{- .Summary | default (printf "%s - %s" .Title  .Site.Title) }}{{- else }}
+    {{- with .Site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
+<meta name="author" content="{{ (partial "author.html" . ) }}">
+<link rel="canonical" href="{{ .Permalink }}" />
+{{- if .Site.Params.analytics.google.SiteVerificationTag }}
+<meta name="google-site-verification" content="{{ .Site.Params.analytics.google.SiteVerificationTag }}" />
+{{- end}}
+
+<!-- Custom styles -->
+{{- $custom := resources.Get "css/custom.css" }}
+
+<!-- Styles -->
+{{- $anoldhope := resources.Get "css/an-old-hope.min.css" }}
+{{- $theme := resources.Get "css/theme-vars.css" }}
+{{- $reset := resources.Get "css/reset.css" }}
+{{- $header := resources.Get "css/header.css" }}
+{{- $main := resources.Get "css/main.css" }}
+{{- $postentry := resources.Get "css/post-entry.css" }}
+{{- $postsingle := resources.Get "css/post-single.css" }}
+{{- $terms := resources.Get "css/terms.css" }}
+{{- $archive := resources.Get "css/archive.css" }}
+{{- $footer := resources.Get "css/footer.css" }}
+{{- $404 := resources.Get "css/404.css" }}
+{{- $style := slice $theme $reset $header $main $postentry $postsingle $terms $archive $footer $404 $custom | resources.Concat "stylesheet.css" }}
+{{- $stylesheet := slice $anoldhope $style | resources.Concat "assets/css/stylesheet.css" | minify | fingerprint -}}
+<link href="{{ $stylesheet.Permalink }}" integrity="{{ $stylesheet.Data.Integrity }}" rel="preload stylesheet"
+    as="style">
+{{- if (and (.Site.Params.profileMode.enabled) (.IsHome)) }}
+{{- $profileMode := slice (resources.Get "css/profile-mode.css") | resources.Concat "assets/css/profile-mode.css" | minify | fingerprint }}
+<link href="{{ $profileMode.Permalink }}" integrity="{{ $profileMode.Data.Integrity }}" rel="preload stylesheet"
+    as="style">
+{{- end -}}
+<!-- Favicons -->
+<link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+<link rel="manifest" href="icons/site.webmanifest">
+<link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="icons/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="icons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<!-- Generator -->
+{{- hugo.Generator }}
+<!-- RSS -->
+{{- range .AlternativeOutputFormats -}}
+<link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end -}}
+{{- partial "extend_head.html" . -}}
+<!-- Misc -->
+{{- if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
+{{- template "_internal/google_analytics_async.html" . }}
+{{- template "partials/templates/opengraph.html" . }}
+{{- template "partials/templates/twitter_cards.html" . }}
+{{- template "partials/templates/schema_json.html" . }}
+{{- end }}
