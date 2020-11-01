@@ -13,13 +13,14 @@ minify:
 
 params:
   env: production
-  description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-  author: Me
-  # author: ["Me", "You"] # multiple authors
+  description: "My errands in software development. Mostly .NET stuff, with a bit of front-end here and there"
+  author: Joao
   ShowReadingTime: true
   defaultTheme: auto
   ShowShareButtons: false
   displayFullLangName: true
+  assets:
+    favicon: 'icons/favicon.ico'
 
 taxonomies:
   category: categories
