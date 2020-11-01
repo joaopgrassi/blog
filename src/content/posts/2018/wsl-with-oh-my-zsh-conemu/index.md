@@ -8,8 +8,14 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-url: windows-subsystem-for-linux-with-oh-my-zsh-conemu
+# url: windows-subsystem-for-linux-with-oh-my-zsh-conemu
 type: posts
+
+resources:
+- src: 'broken-theme.png'
+- src: 'install-oh-my-zsh.png'
+- src: 'working-theme.jpg'
+- src: 'zsh-final.png'
 ---
 
 The era of .NET developers being constrained on using only Windows as a platform is gone. (At least for ASP.NET). That might be very cool to some, but also scary for others. Fear of change [is true](https://www.huffingtonpost.com/heidi-grant-halvorson-phd/why-we-dont-like-change_b_1072702.html). Nevertheless, it's definitely time (if not yet) to get out of the comfort zone and get your feet wet. Being able to work with .NET on Linux/Mac is one of the points that makes me agree 100% with Nick Craver that [.NET Core is the future](https://twitter.com/Nick_Craver/status/990317621559156736).
@@ -58,7 +64,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 This will clone the repo and replace the existing `~/.zshrc` with a template from `oh-my-zsh`.
 
-![Installing oh-my-zsh](/posts/2018/install-oh-my-zsh.png "Installing oh-my-zsh")
+{{< img "*install-oh-my-zsh*" "Installing oh-my-zsh" >}}
 
 ## Configuring zsh/oh-my-zsh
 
@@ -89,7 +95,7 @@ ZSH_THEME="agnoster"
 
 Save it and restart your Ubuntu shell again. 
 
-![Broken Theme](/posts/2018/broken-theme.png "Broken theme")
+{{< img "*broken-theme*" "Broken theme" >}}
 
 Now was the tricky part while I was doing this on my laptop. After installing the theme, I got a totally broken shell (as shown in the image), with weird fonts and missing icons. That was expected due to missing Powerline Fonts, but even after installing them on Ubuntu the Theme was still broken. I tried several things and couldn't make it work. Since we will run it with ConEmu, I didn't want to spend more time on it. The Ubuntu shell is very limited anyway so.. not a big deal.
 
@@ -131,8 +137,7 @@ eval `dircolors ~/.dircolors`
 ```
     
 We have nice colors now :)
-![Adding directory colors](/posts/2018/working-theme.jpg "Adding directory colors")
-
+{{< img "*working-theme*" "Adding directory colors" >}}
 
 ## Setting Bash on Ubuntu task in ConEmu
 
@@ -143,7 +148,7 @@ Open ConEmu, and go to `Settings`. Navigate on the left-menu: `Startup > Tasks`.
 3. For the `command` use this `%windir%\system32\bash.exe ~ -cur_console:p`. This will start bash under the user home directory. Since we already configured `zsh` to run by default, this is enough.
 
 Open the new task on ConEmu and... Voalá!
-![View of the terminal configured](/posts/2018/zsh-final.png "We're done! (you can brag about it as well 😛)")
+{{< img "*zsh-final*" "View of the terminal configured" >}}
 
 Nice command look, lots of git shortcuts and much more productivity. Couldn't enjoy this more.
 

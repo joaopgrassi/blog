@@ -1,6 +1,6 @@
 {{ $img := $.Page.Resources.GetMatch (.Get 0)}}
 
 <figure class="figure-border">
-    <img class="img-center" src="{{ $img.RelPermalink | safeURL }}" alt="(.Get 1)" loading="lazy">
+    <img class="img-center" src="{{ $img.RelPermalink | safeURL }}" alt="{{(.Get 1)}}" loading="lazy">
     <figcaption class="img-caption">{{(.Get 1)}}</figcaption>
 </figure>

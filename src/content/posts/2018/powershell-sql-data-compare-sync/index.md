@@ -8,15 +8,18 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-url: powershell-sql-data-compare-sync
+# url: powershell-sql-data-compare-sync
 type: posts
+
+resources:
+- src: 'enumtable.png'
 ---
 
 The database team at my current job had successfully integrated the databases into source control using [Redgate SQL Source Control](https://www.red-gate.com/products/sql-development/sql-source-control/). Developers now have a local instance of the databases linked to Source Control and for them to add or change things it's a breeze.
 
 The "adding databases into source control" statement is comprised of basically adding all the objects to source control. E.g. Tables, Views, Procedures and so on. Apart from adding database objects, there were also a couple of Tables identified as "Enum" tables. These tables are those that all of us developers are very familiar with. They usually contain lookup data, like Statuses and Countries.
 
-![Rows of an enum table in SQL Server](/posts/2018/enumtable.png "An example of an Enum table")
+{{< img "*enumtable*" "An example of an Enum table" >}}
 
 **The problem started here**: We have several data centers and these enum data should be, of course, the same everywhere. At this point, when someone wanted a new value available in production, they would add it, `commit` and `push`. Then, open a ticket with the database team so they could deploy the new value everywhere. As you are probably thinking, this is.. let's say, not very efficient.
 
