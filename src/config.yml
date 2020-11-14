@@ -7,6 +7,19 @@ theme: hugo-PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    menu:
+      main:
+        - name: Archives
+          url: /archives/
+          weight: 5
+        - name: Tags
+          url: /tags/
+          weight: 10
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -19,6 +32,8 @@ params:
   defaultTheme: auto
   ShowShareButtons: false
   displayFullLangName: true
+  cover:
+      responsiveImages: false
 
 taxonomies:
   category: categories
