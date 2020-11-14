@@ -18,10 +18,8 @@ resources:
 - src: 'working-theme.jpg'
 - src: 'zsh-final.png'
 
-cover:
-    image: "ms-loves-linux-cover.png"
-    relative: true
-    alt: "Microsoft :heart: Linux"
+images:
+- windows-subsystem-for-linux-with-oh-my-zsh-conemu/ms-loves-linux-cover.png
 ---
 
 The era of .NET developers being constrained on using only Windows as a platform is gone. (At least for ASP.NET). That might be very cool to some, but also scary for others. Fear of change [is true](https://www.huffingtonpost.com/heidi-grant-halvorson-phd/why-we-dont-like-change_b_1072702.html). Nevertheless, it's definitely time (if not yet) to get out of the comfort zone and get your feet wet. Being able to work with .NET on Linux/Mac is one of the points that makes me agree 100% with Nick Craver that [.NET Core is the future](https://twitter.com/Nick_Craver/status/990317621559156736).

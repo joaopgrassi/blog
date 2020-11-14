@@ -1,18 +1,24 @@
 ---
+# recommended 70 chars
 title: "Syncing database data with PowerShell and  SQL Data Compare"
+# recommended 156 chars
+description: "Learn how to use PowerShell to sync databases with the help of Redgate SQL Data Compare in a configurable and easy to maintain way."
 date: 2018-08-17T20:41:00+00:00
 tags: ["powershell", "SQL", "redgate-sql-data-compare"]
-author: "Me"
+author: "Joao Grassi"
 showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-# url: powershell-sql-data-compare-sync
+url: powershell-sql-data-compare-sync
 type: posts
 
 resources:
 - src: 'enumtable.png'
+
+images:
+- powershell-sql-data-compare-sync/powershell-sqldatacompare-cover.png
 ---
 
 The database team at my current job had successfully integrated the databases into source control using [Redgate SQL Source Control](https://www.red-gate.com/products/sql-development/sql-source-control/). Developers now have a local instance of the databases linked to Source Control and for them to add or change things it's a breeze.
