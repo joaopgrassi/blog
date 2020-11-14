@@ -19,8 +19,6 @@ params:
   defaultTheme: auto
   ShowShareButtons: false
   displayFullLangName: true
-  assets:
-    favicon: 'icons/favicon.ico'
 
 taxonomies:
   category: categories
