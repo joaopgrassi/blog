@@ -1,19 +1,25 @@
 ---
 title: "Launching Env-Guard: No more mistakes in production!"
+description: "Env-Guard is a chrome extension that lets you modify some parts of your chrome tabs. By doing so, you can easily identify whether you should be extra careful or just do whatever you want in your app."
 date: 2018-02-19T19:58:00+00:00
 tags: ["env-guard", "front-end", "chrome-extension"]
-author: "Me"
+author: "Joao Grassi"
 showToc: false
 TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-# url: launching-env-guard
+url: launching-env-guard
 type: posts
 
 resources:
 - src: 'prod_google.jpg'
 - src: 'url_operator.jpg'
+
+cover:
+    image: "launching-env-guard-cover.png"
+    relative: true
+    alt: "Post image featuring env-guard logo"
 ---
 
 It has been almost two months now since I uploaded my first Chrome extension to the Chrome Store. And now, I **finally** have a Blog where I can officially talk about it with the world!
