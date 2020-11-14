@@ -7,6 +7,14 @@ theme: hugo-PaperMod
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
+outputs:
+  home: ["HTML","RSS"]
+
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "rss"
+
 languages:
   en:
     languageName: "English"
@@ -26,7 +34,7 @@ minify:
 
 params:
   env: production
-  description: "My errands in software development. Mostly .NET stuff, with a bit of front-end here and there"
+  description: "My errands in software development. Mostly .NET stuff, with a bit of front-end here and there."
   author: Joao
   ShowReadingTime: true
   defaultTheme: auto
@@ -34,6 +42,20 @@ params:
   displayFullLangName: true
   cover:
       responsiveImages: false
+  homeInfoParams:
+        Title: Joao Grassi's Blog
+        Content: My errands in software development. Mostly .NET stuff, with a bit of front-end here and there.
+  socialIcons:
+        - name: "twitter"
+          url: "https://twitter.com/jotagrassi"
+        - name: "github"
+          url: "https://github.com/joaopgrassi"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/joaopgrassi"
+        - name: "stackoverflow"
+          url: "https://stackoverflow.com/users/2689390/jpgrassi"
+        - name: "rss"
+          url: "rss.xml"
 
 taxonomies:
   category: categories
