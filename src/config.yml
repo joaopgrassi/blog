@@ -4,6 +4,7 @@ title: "Joao Grassi's blog"
 paginate: 8
 theme: hugo-PaperMod
 
+enableEmoji: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
