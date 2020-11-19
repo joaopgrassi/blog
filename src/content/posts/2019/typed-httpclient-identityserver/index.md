@@ -433,4 +433,5 @@ I mentioned a couple of times during the post about the `IdentityModel` NuGet pa
 
 
 ### Credits:
-Photo on <a href="https://visualhunt.com/">Visual Hunt</a>
+Photo on [Visual Hunt](https://visualhunt.com/photo4/11756/barbed-wire-on-green-background/)
+
