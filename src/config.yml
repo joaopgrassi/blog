@@ -24,10 +24,13 @@ languages:
       main:
         - name: Archives
           url: /archives/
-          weight: 5
+          weight: 1
         - name: Tags
           url: /tags/
-          weight: 10
+          weight: 2
+        - name: Series
+          url: /series/
+          weight: 3
 
 minify:
   disableXML: true
