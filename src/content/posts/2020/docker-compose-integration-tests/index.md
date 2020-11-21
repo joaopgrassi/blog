@@ -13,11 +13,16 @@ url: using-docker-compose-for-your-asp-net-ef-core-integration-tests
 type: posts
 series: ['Integration tests in ASP.NET Core']
 
-images:
-- using-docker-compose-for-your-asp-net-ef-core-integration-tests/using-docker-compose-for-your-asp-net-ef-core-integration-tests.jpg
+# images:
+# - using-docker-compose-for-your-asp-net-ef-core-integration-tests/using-docker-compose-for-your-asp-net-ef-core-integration-tests.jpg
 
 resources:
 - src: 'twitter_dbcontext_pooling.png'
+
+cover:
+    image: "using-docker-compose-for-your-asp-net-ef-core-integration-tests.jpg"
+    relative: true
+    alt: "View from above of containers in a port"
 
 ---
 

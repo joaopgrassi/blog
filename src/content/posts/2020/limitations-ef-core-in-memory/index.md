@@ -13,8 +13,10 @@ url: limitations-ef-core-in-memory-database-providers
 type: posts
 series: ['Integration tests in ASP.NET Core']
 
-images:
-- limitations-ef-core-in-memory-database-providers/limitations-ef-core-in-memory-database-providers-1.png
+cover:
+    image: "limitations-ef-core-in-memory-database-providers-1.png"
+    relative: true
+    alt: "Road with speed limits printed"
 
 ---
 
