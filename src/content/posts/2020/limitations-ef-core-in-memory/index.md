@@ -14,8 +14,8 @@ type: posts
 series: ['Integration tests in ASP.NET Core']
 
 cover:
-    image: "limitations-ef-core-in-memory-database-providers-1.png"
-    relative: true
+    image: "content/images/2020/08/limitations-ef-core-in-memory-database-providers-1.png"
+    relative: false
     alt: "Road with speed limits printed"
 
 ---

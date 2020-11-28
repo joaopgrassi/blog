@@ -14,8 +14,8 @@ type: posts
 series: ['Integration tests in ASP.NET Core']
 
 cover:
-    image: "asp-net-core-integration-tests-with-docker-compose-azure-pipelines.jpg"
-    relative: true
+    image: "content/images/2020/08/asp-net-core-integration-tests-with-docker-compose-azure-pipelines.jpg"
+    relative: false
     alt: "View from stairs in black and white"
 
 resources:

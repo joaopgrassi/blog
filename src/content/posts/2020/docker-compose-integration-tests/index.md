@@ -14,8 +14,8 @@ type: posts
 series: ['Integration tests in ASP.NET Core']
 
 cover:
-    image: "using-docker-compose-for-your-asp-net-ef-core-integration-tests.jpg"
-    relative: true
+    image: "content/images/2020/08/using-docker-compose-for-your-asp-net-ef-core-integration-tests.jpg"
+    relative: false
     alt: "View from above of containers in a port"
 
 resources:
