@@ -1,7 +1,7 @@
 baseURL: "https://blog.joaograssi.com"
 languageCode: "en-us"
 title: "Joao Grassi's blog"
-paginate: 8
+paginate: 5
 theme: hugo-PaperMod
 
 enableEmoji: true
