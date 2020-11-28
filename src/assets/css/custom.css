@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Cascadia Code";
+  src: url(/fonts/CascadiaCode.woff2);
+}
+
 .figure-border {
   padding: 15px 15px 0;
   margin-bottom: 20px;
@@ -15,4 +20,10 @@
 .img-caption {
   text-align: center;
   font-style: italic;
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+  font-family: "Cascadia Code", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  text-align: left;
 }

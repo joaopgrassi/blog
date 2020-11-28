@@ -8,6 +8,7 @@ enableEmoji: true
 enableInlineShortcodes: true
 enableRobotsTXT: true
 
+# RSS feed needs to be at /rss for backward compatibility
 outputs:
   home: ["HTML","RSS"]
 
@@ -16,6 +17,7 @@ outputFormats:
     mediatype: "application/rss"
     baseName: "rss"
 
+# In order to avoid need the extension on the rss feed
 mediaTypes:
     application/rss:
       suffixes: []
