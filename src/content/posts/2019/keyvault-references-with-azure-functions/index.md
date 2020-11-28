@@ -13,7 +13,7 @@ url: using-azure-key-vault-references-with-azure-functions-appservice
 type: posts
 
 images:
-- using-azure-key-vault-references-with-azure-functions-appservice/azkeyvauld-azfunc-cover.png
+- content/images/2019/12/post-header.fw-1.png
 
 resources:
 - src: 'keyvault-creation.png'

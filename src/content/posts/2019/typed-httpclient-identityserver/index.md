@@ -12,8 +12,10 @@ comments: false
 url: typed-httpclient-with-messagehandler-getting-accesstokens-from-identityserver
 type: posts
 
-images:
-- typed-httpclient-with-messagehandler-getting-accesstokens-from-identityserver/barbed-wire-on-green-background-cover.jpg
+cover:
+    image: "content/images/2019/03/barbed-wire-on-green-background.jpg"
+    relative: false
+    alt: "Barbed wire on a green background"
 
 resources:
 - src: 'client_credentials_flow-1.svg'
