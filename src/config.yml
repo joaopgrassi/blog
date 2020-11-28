@@ -60,12 +60,12 @@ params:
           url: "https://twitter.com/jotagrassi"
         - name: "github"
           url: "https://github.com/joaopgrassi"
-        - name: "linkedin"
-          url: "https://www.linkedin.com/in/joaopgrassi"
         - name: "stackoverflow"
           url: "https://stackoverflow.com/users/2689390/jpgrassi"
+        - name: "keybase"
+          url: "https://keybase.io/joaopgrassi"
         - name: "rss"
-          url: "rss.xml"
+          url: "rss"
 
 taxonomies:
   category: categories
