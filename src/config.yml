@@ -16,6 +16,10 @@ outputFormats:
     mediatype: "application/rss"
     baseName: "rss"
 
+mediaTypes:
+    application/rss:
+      suffixes: []
+
 languages:
   en:
     languageName: "English"
