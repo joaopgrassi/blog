@@ -33,7 +33,6 @@ To solve that we built a tool to manage this set of Enum/Configuration data. Thi
 
 But, there was one downside: The developer's local instances were now outdated!. Since the enum tables are now managed by an external tool, there was no need to keep them in source control. And if they are not in source control developers can't just do `git pull` and expect to get the data anymore.
 
-
 ## The solution
 
 Use Redgate SQL Data Compare! Maybe not everyone knows but SQL Data Compare also works via the [command line](https://documentation.red-gate.com/sdc13/using-the-command-line). Basically everything you can do using the UI you can do using the command line, which is awesome!
@@ -59,7 +58,6 @@ We took leverage of the `.xml` configuration files and created one for each data
 1. You can (and should!) put it on source control. So changes are made in a safe way
 2. It separates each database with its own set of configurations and tables
 3. Allows the PowerShell script to be "generic" and database agnostic.
-
 
 ## Code:
 
@@ -193,9 +191,8 @@ The rest is pretty straightforward. It calls the function and checks if SQL Data
 
 And that's it! You have an updated database again :)
 
+**Note 1**: This was the solution that was the fastest to build and that brought immediate value to us. It might not be the most perfect one though. In the end, we had to choose the approach that [would bring the most value with minimal efforts](https://www.codeproject.com/Articles/824234/Pareto-Programming). Also, I'm  a PowerShell noob so please,  if you find something that can be improved let me know in the comments! 
 
-**Disclosure 1**: This was the solution that was the fastest to build and that brought immediate value to us. It might not be the most perfect one though. In the end, we had to choose the approach that [would bring the most value with minimal efforts](https://www.codeproject.com/Articles/824234/Pareto-Programming). Also, I'm  a PowerShell noob so please,  if you find something that can be improved let me know in the comments! 
-
-**Disclosure 2**: This post is basically about Redgate SQL Data Compare but this is not a promoted post nor I'm benefiting from it. We already use their products in our office and this was just a way of sharing our use case.
+**Note 2**: This post is basically about Redgate SQL Data Compare but this is not a promoted post nor I'm benefiting from it. We already use their products in our office and this was just a way of sharing our use case.
 
 Hope this was helpful.

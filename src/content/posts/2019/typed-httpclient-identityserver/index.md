@@ -44,7 +44,6 @@ If you are familiar with OAuth, you might recognize the flow above. Basically, w
 
 All the code used in this post is available on GitHub: [httpclient-token-identityserver](https://github.com/joaopgrassi/httpclient-token-identityserver)
 
-
 ## Talking to our protected API
 
 It's time to dig into the code. I'll guide you through the approaches that we can use to talk with our "Protected API", starting from the most simple and obvious one (not great, BTW) and, step-by-step we'll improve it until we reach a nice and clean design. (at least I think so)
@@ -58,10 +57,9 @@ Let's remember what we have to do before we can consume our "Protected API"
 3. We need to set the `access_token` in the `Authorization: Bearer <token>` request header 
 4. Send the request to our Protected API
 
-
 ### Attempt 1 - "Works but it's not great" approach
 
-```csharp{.line-numbers}
+```csharp
 [HttpGet("version1")]
 public async Task<IActionResult> GetVersionOne()
 {
@@ -124,7 +122,8 @@ If you've read Steve's series mentioned earlier (or you already know the issue),
 Every time we need to get an `access_token` we'll have to do the same code from step 1 and 2. We can refactor that using the `HttpClientFactory` and typed `HttpClient` introduced in ASP.NET Core 2.1. 
 
 **Our Typed Identity Server client:**
-```csharp{.line-numbers}
+
+```csharp
 public interface IIdentityServerClient
 {
     Task<string> RequestClientCredentialsTokenAsync();
@@ -168,7 +167,7 @@ You might have noticed also the `HttpClient` injected into the constructor. This
 
 Now that we have our `IdentityServerClient` class ready, we need to register it within the DI container so we can request it later. This happens in our `Startup.cs` and more specifically in the `ConfigureServices` method:
 
-```csharp{.line-numbers}
+```csharp
 public void public void ConfigureServices(IServiceCollection services)
 {
     services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
@@ -189,17 +188,15 @@ public void public void ConfigureServices(IServiceCollection services)
 }
 ```
 
-At line `5` we register our `ClientCredentialsTokenRequest` as a Singleton. In a real-world app you would most likely read these values from `appsettings.json`, but to keep it simple we'll leave it that way.
+First we register our `ClientCredentialsTokenRequest` as a Singleton. In a real-world app you would most likely read these values from `appsettings.json`, but to keep it simple we'll leave it that way.
 
-Between lines `13-17` is where the "magic" happens. We call the `AddHttpClient` extension method on `IServiceCollection` which in this case is adding a **typed** `HttpClient`. The `AddHttpClient` provides an overload where you can pass an `Action<HttpClient>` **and pre-configure the HttpClient that will get injected into this class**. Here we are setting the `BaseAddress` of our IdentityServer and some default request headers. Now, every time I request an `IIdentityServerClient` I'll get a `HttpClient` pre-configured with those values.
-
-
+Next is where the "magic" happens. We call the `AddHttpClient` extension method on `IServiceCollection` which, in this case, is adding a **typed** `HttpClient`. The `AddHttpClient` provides an overload where you can pass an `Action<HttpClient>` **and pre-configure the HttpClient that will get injected later**. Here we are setting the `BaseAddress` of our IdentityServer and some default request headers. Now, every time I request an `IIdentityServerClient` I'll get a `HttpClient` pre-configured with those values.
 
 > There are other ways of registering Http clients. For instance, you could add a **named** client like `AddHttpClient("MyClient")`. I tend to prefer strongly typed ones as they provide a more constrained API plus I avoid magic strings in my code.
 
 With our typed `IdentityServerClient` created and configured, let's refactor our controller.
 
-```csharp{.line-numbers}
+```csharp
 private readonly IIdentityServerClient _identityServerClient;
 
 public ConsumerController(IIdentityServerClient identityServerClient)
@@ -238,7 +235,7 @@ I think this version is way better than the first one. But we still create a new
 
 Now that we have seen how we can create and use a typed HttpClient, we can use the same approach and create a typed for our "Protected API". A quick implementation looks like this:
 
-```csharp{.line-numbers}
+```csharp
 public class ProtectedApiClient : IProtectedApiClient
 {
     private readonly IIdentityServerClient _identityServerClient;
@@ -384,7 +381,6 @@ services.AddHttpClient<IProtectedApiClient, ProtectedApiClient>(client =>
 }).AddHttpMessageHandler<ProtectedApiBearerTokenHandler>();
 ```
 
-
 ### Final attempt - Using the `ProtectedApiClient` in our controller
 
 With both our typed client and message handler registered it's time to refactor our controller! We'll add another endpoint `version3` and get a dependency on our `IProtectedApiClient`. Wait for it...
@@ -434,4 +430,3 @@ I mentioned a couple of times during the post about the `IdentityModel` NuGet pa
 
 ### Credits:
 Photo on [Visual Hunt](https://visualhunt.com/photo4/11756/barbed-wire-on-green-background/)
-

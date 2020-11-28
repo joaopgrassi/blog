@@ -53,13 +53,11 @@ In essence, we can think of Azure Key vault as, well a Vault! You put your secre
 
 ## Using Azure Key Vault with your ASP.NET Core apps
 
-
 If you want to use Azure Key Vault as one of your app's configuration providers you would need to do some work, like add specific NuGet packages, get the URL of the Vault, create your clientId and secret (more on resolve this chicken-or-egg issue with Azure system-assigned identity later), connect to the vault, read the settings... you get the idea.
 
 The point is: the process isn’t trivial. I had to go through these steps recently, and I spent more time on it than I'm proud to share. Several Microsoft docs and blog posts later, I managed to change my app to make it work. *BUT*, not everyone out there can change their apps that easily. We need to consider the number of people running critical components in production. Requiring such code changes just for the sake of consuming settings from the Key Vault seems a bit too much to ask.
 
 As you maybe guessed at this point, there's an easier way (if you are using App Service/Azure Functions at least): **Azure Key Vault references**. 🔐
-
 
 ## Azure Key Vault references
 
@@ -86,7 +84,6 @@ Eight steps seem like a lot, but it's not that complicated. I will try to guide 
 
 
 ### Creating the Key Vault <a id="creating-key-vault"></a>
-
 
 On the Azure Portal, go to `Resource groups > _your resource group_ > Add new resource > Key Vault > Create`.
 
@@ -128,7 +125,7 @@ Continuing, I'll create an `HTTP Function v2` with `.NET Core 2.2`. I'll be usin
 
 Whichever way you have chosen to create your function, here is the code for it:
 
-```csharp{.line-numbers}
+```csharp
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
@@ -165,11 +162,11 @@ namespace FnReadSecretFromVault
 
 The only thing it does is: Grab the configuration, access the value of our secret setting and return it. 
 
->If you are not familiar with how settings work in App Service or Azure Functions: the settings configured in the Azure portal are available as environment variables into our apps. So the line `23` makes sure our app has them loaded as one of our providers.
+>If you are not familiar with how settings work in App Service or Azure Functions: the settings configured in the Azure portal are available as environment variables into our apps. So the call to `AddEnvironmentVariables` makes sure our app has them loaded as one of our providers.
 
 Another thing to note is the `local.settings.json` file:
 
-```javascript{.line-numbers}
+```javascript
 {
   "IsEncrypted": false,
   "Values": {
@@ -205,7 +202,6 @@ Now we can test our new Function! Go back to the main page and follow the steps 
 
 Our Function now returns: `Azure-Value`! But it's still not what we want. Let's continue and change it to return the value stored in the Key Vault, using references.
 
-
 ## Creating a system-assigned identity for our Function <a id="creating-system-identity"></a>
 
 To be able to consume the secrets from the Key Vault, our Function needs to have access to it. In Azure, you can configure one resource to access another by creating what's called a [managed identity](https://docs.microsoft.com/en-us/azure/active-directory/managed-identities-azure-resources/overview). Once your resource has a managed identity, you can modify another resource and allow access to it. Maybe my explanation sucks, so here are the official words:
@@ -231,7 +227,6 @@ Once in the `Access policies` page, click on `Add access policy`. Select `Get` f
 {{< img "*adding-accesspolicy.png*" "Configuring acess to the Key Vault" >}}
 
 Now our Function App has `GET` access to `Secrets` in the Vault 👌. The only thing missing now is using the `Key Vault references` feature, which will allow us to reference the secret in the vault as one of our Function settings. Let's move on.
-
 
 ## Using the Key Vault reference as the source of our Function setting <a id="using-reference-in-appsettings"></a>
 
@@ -274,11 +269,9 @@ Well, that looks pretty cheap. But still, I wouldn't like to have a surprise at 
 
 Here is the link for the whole discussion: [KeyVault references - are returned values cached in the App Service](https://github.com/MicrosoftDocs/azure-docs/issues/36650#issuecomment-519241267)
 
-
 ## Automation
 
 I demonstrated here in this post how to configure Key Vault references in your AppService or Function. Along with the post, I created several resources and changed configurations, all via the Azure Portal. It's okay to do it like that a few times, but as soon as you need to scale your services you have to start thinking about how to automate the deployment of it. Most of the things I showed here, you can do via the Azure CLI. In case you are interested, the links below have more details on this.
-
 
 ## References/links
 
@@ -295,4 +288,3 @@ It's not possible to cover all the things in a single blog post. If I got you cu
 - Key Vault docs: https://docs.microsoft.com/en-us/azure/key-vault/
 
 And that's about it. Thanks for reading it and I hope it was somewhat usefull. Feel free to leave a comment if you have any questions.
-

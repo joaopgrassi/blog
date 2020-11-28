@@ -13,16 +13,13 @@ url: using-docker-compose-for-your-asp-net-ef-core-integration-tests
 type: posts
 series: ['Integration tests in ASP.NET Core']
 
-# images:
-# - using-docker-compose-for-your-asp-net-ef-core-integration-tests/using-docker-compose-for-your-asp-net-ef-core-integration-tests.jpg
-
-resources:
-- src: 'twitter_dbcontext_pooling.png'
-
 cover:
     image: "using-docker-compose-for-your-asp-net-ef-core-integration-tests.jpg"
     relative: true
     alt: "View from above of containers in a port"
+
+resources:
+- src: 'twitter_dbcontext_pooling.png'
 
 ---
 
@@ -36,13 +33,11 @@ This is the second post in the [Integration tests in ASP.NET Core](/series/integ
 
 In this post, we will be looking at how you can run the integration tests of an ASP.NET + EF Core app against a "full" SQL Server instead of using the in-memory database providers. We'll be looking at this from a local development perspective and expand on it later in the next posts.
 
-
 ## TL;DR
 
 Used [docker-compose](https://docs.docker.com/compose/),  [xunit Collection Fixtures](https://xunit.net/docs/shared-context.html) and [WebApplicationFactory](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-3.1#customize-webapplicationfactory) in order to connect to SQL Server running on Docker and create/migrate/drop a new database for each test run. 
 
 If you want to skip and jump right at the code, [check the project on GitHub](https://github.com/joaopgrassi/dockercompose-azdevops)
-
 
 ## Alternatives to the in-memory database providers
 
@@ -63,7 +58,7 @@ We just need a `docker-compose.yml` file at the root of our repo which starts a 
 
 An example `docker-compose.yml` file that starts a SQL Server instance looks like this:
 
-```yaml{.line-numbers}
+```yaml
 version: "3.7"
 
 networks:
@@ -124,7 +119,6 @@ Let's see how to do this next.
 
 ### Creating our DB Collection Fixture
 
-
 ```csharp
 using BlogApp.Data;
 using Microsoft.EntityFrameworkCore;
@@ -182,8 +176,6 @@ namespace BlogApp.Api.Tests
         // ICollectionFixture<> interfaces.
     }
 }
-
-
 ```
 
 The constructor is the important part of this class:
@@ -208,7 +200,7 @@ In the original post, I showed you how to use the Docker connection string by re
 
 One easy solution is instead of removing the original `DbContext` registration, we just add an `In-memory` configuration provider with our integration test connection string. That will override the one in your `appsettings.json` during the tests. I've updated the code snippet below to reflect that along with the project on GitHub. Thanks, Alexey!
 
-```csharp{.line-numbers}
+```csharp
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Configuration;
@@ -260,14 +252,12 @@ namespace BlogApp.Api.Tests
         }
     }
 }
-
-
 ```
 Let's go through it:
 
 1. Note the `[Collection("Database")]` attribute on the class. That tells `xunit` to inject the database fixture into this class's constructor.
 
-2. On line 41 we add an in-memory configuration provider with our Docker connection string. When the app starts, this will override the connection string in `appsettings.<env>.json`. No need to remove the original DbContext.
+2. We add an in-memory configuration provider (`AddInMemoryCollection`) containing our Docker connection string. When the app starts, this will override the connection string in `appsettings.<env>.json`. No need to remove the original DbContext.
 
 We have all we need now. Let's connect all the pieces!
 
@@ -277,7 +267,7 @@ We have all we need now. Let's connect all the pieces!
 This is an example of an integration test class for our Blog controller:
 
 
-```csharp{.line-numbers}
+```csharp
 using BlogApp.Api.Controllers.Models;
 using BlogApp.Data.Entities;
 using FluentAssertions;
@@ -333,8 +323,7 @@ Again let's inspect things a bit:
 
 2. We use another `xunit` way of sharing data: `IClassFixture`. This will inject our `WebApplicationFactory` into the test class's constructor and the same factory is shared for all tests **in this class only**
 
-3. On line `30` we use the factory to create the `HttpClient`
-
+3. Inside the test we use the factory to create the `HttpClient` which points to our app
 4. Next, we issue a `POST` request to the blog controller to create our blog
 5. Then, we issue a `GET` request using the `Id` returned
 6. Finally, we compare both values to see if they match

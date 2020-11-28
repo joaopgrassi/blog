@@ -27,7 +27,6 @@ It has been almost two months now since I uploaded my first Chrome extension to 
 ## TL;DR
 I have built a Chrome Extension to help developers avoid making mistakes while dealing with "Production Like" instances of their apps. [Click here to see the links](#conclusion)
 
-
 ## The problem
 
 My friends and I work in a Web application that is mainly an internal administration tool. The application does all sorts of complicated things and touches several domains within the company. 
@@ -70,7 +69,6 @@ Pretty cool, huh? Of couse, you don't have to use all three customizations. You 
 
 ## <a name="conclusion"></a>Conclusion
 
-
 I had a lot of fun building this. It was my first Chrome Extension and I learned a bunch along the way. Plus, it saved me (and hopefully others) from making mistakes in Production.
 Basically, the main technologies/frameworks I used were:
 * [Angular](https://github.com/angular/angular) + [Material](https://github.com/angular/material2)
@@ -82,5 +80,3 @@ Here are the links: [Github Repo](https://github.com/joaopgrassi/env-guard), [Ch
 
 When I started developing this, I found another very similar extension called [Tab Modifier](https://github.com/sylouuu/chrome-tab-modifier). It has the same concept but contains way more features than mine, because of that it can be used in many other ways. Env-Guard is developer "oriented" and will always have this constraint. I plan to only add features that make sense to us.
 So, if you want to modify your tabs definitely check this one out. And thanks [@sylouuu](https://github.com/sylouuu) for understanding the goals of my extension.
-
-That's it for now. 

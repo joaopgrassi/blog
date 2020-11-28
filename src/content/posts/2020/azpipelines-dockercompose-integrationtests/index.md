@@ -118,8 +118,6 @@ jobs:
       command: test
       projects: 'tests/**/*.csproj'
       arguments: '-c $(buildConfiguration) --collect:"XPlat Code Coverage"'
-
-
 ```
 
 The yaml pipeline can be quite daunting at first sight, but once you get the hang of it it's not that bad. When I got started, this page [YAML schema reference](https://docs.microsoft.com/en-us/azure/devops/pipelines/yaml-schema?view=azure-devops&tabs=schema%2Cparameter-schema) helped me a lot. 
@@ -145,7 +143,6 @@ As we know, to run our tests we need to make sure we have our SQL Server running
 We need to specify which container registry we want to use (`containerregistrytype`). The default is to use Azure ACR. Since the SQL Server image lives in the Docker public registry, we need to set the value to `Container Registry`. The link above has more details on it.
 
 Then we just need to instruct it where the `docker-compose` file is and the command to execute. This is the same when running locally, `docker-compose up -d` (-d for detached, because we don't want to block the terminal)
-
 
 #### Restore, Build and Test
 
@@ -183,7 +180,6 @@ The next step is to save the yaml file above at the root of your repo. I usually
 
 
 You should have your brand new pipeline now! Hopefully passing 😅
-
 
 ## Extras
 

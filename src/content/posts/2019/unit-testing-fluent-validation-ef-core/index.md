@@ -17,7 +17,6 @@ images:
 
 ---
 
-
 In this post, I will share with you a solution to a problem that I see often when developing ASP.NET Core apps that use both [Fluent Validation](https://fluentvalidation.net/) and [Entity Framework (Core)](https://github.com/aspnet/EntityFrameworkCore). I'll first set the scene: Show the EF Core Entity + Configuration + Fluent Validation we'll be working on. Next, I'll show the actual problem that emerges with this approach and in the end how can it be improved/solved.
 
 

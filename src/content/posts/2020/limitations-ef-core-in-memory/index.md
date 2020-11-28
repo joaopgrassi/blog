@@ -42,7 +42,6 @@ This page [Testing code that uses EF Core](https://docs.microsoft.com/en-us/ef/c
 
 ## Real-world limitations with the in-memory providers
 
-
 ### Database schemas
 
 If you use database schemas with EF Core and use the SQLite provider for your tests this *kinda* work. SQLite does not support multiple schemas as SQL Server does, but if you use EF Core to access/manipulate your tables, meaning you don't use raw SQL you are covered. Probably under the hood things are managed for you, since [here](https://docs.microsoft.com/en-us/ef/core/providers/sqlite/limitations) it says the migration command `EnsureSchema` is a no-op. If you use schemas in Debug mode you can see these warnings:
@@ -101,7 +100,6 @@ The OP was asking how could they run the integration tests using some set of pre
 
 For sure inserting manually is an option, but when you need a lot of data which was the OP's case having manual inserts starts to become not so nice. It simply boils down to the fact that in-memory providers are not meant for this use case in my opinion.
 
-
 ## Wrapping up
 
 In this post, I presented you with some of the limitations I faced while writing integration tests for production ASP.NET + EF Core apps. I also presented what others are facing and some documentation pages that also talk about in great detail, so you can build your conclusion about it and not just rely on my biased opinion.
@@ -113,6 +111,3 @@ In critical parts of an app that uses data, I believe our tests must match the p
 Coming up next I'll show you how we can use a full SQL Server for our integration tests. Stay tuned!
 
 [Photo by Aleksandar Pasaric from Pexels](https://www.pexels.com/photo/red-light-streaks-3312216/)
-
-
-
