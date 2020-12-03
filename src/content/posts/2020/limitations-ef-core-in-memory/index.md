@@ -64,14 +64,13 @@ This will fail with `Microsoft.Data.Sqlite.SqliteException (0x80004005): SQLite 
 The way I worked-around these cases is simply checking the database provider and removing the schema from the SQL string. Something like this: 
 
 ```csharp
- var schema = "[app].";
+var schema = "[app].";
 
 if (Database.ProviderName == "Microsoft.EntityFrameworkCore.Sqlite")
     schema = string.Empty;
 
 dbContext.Database.ExecuteSqlInterpolated(
     $"UPDATE {schema}[Blogs] SET Title = {title} WHERE Id = {id});
-
 ```
 
 I only have this in one place, so it's not a big deal but still not great.

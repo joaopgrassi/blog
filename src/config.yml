@@ -73,25 +73,15 @@ taxonomies:
   series: series
 
 privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  instagram:
+    disable: true
+  twitter:
+    disable: true
   vimeo:
-    disabled: true
-    simple: true
-
-  twitter:
-    disabled: false
-    enableDNT: true
-    simple: true
-
-  instagram:
-    disabled: true
-    simple: true
-
+    disable: true
   youtube:
-    disabled: true
-    privacyEnhanced: true
-
-services:
-  instagram:
-    disableInlineCSS: true
-  twitter:
-    disableInlineCSS: true
+    disable: true

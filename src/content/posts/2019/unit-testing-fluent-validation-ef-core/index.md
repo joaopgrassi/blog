@@ -15,6 +15,9 @@ type: posts
 cover:
     image: "content/images/2019/12/fluent-validation-ef-core-blog-post-header-twitter.png"
     relative: false
+
+resources:
+- src: 'assert-validator-outofsync.png'
 ---
 
 In this post, I will share with you a solution to a problem that I see often when developing ASP.NET Core apps that use both [Fluent Validation](https://fluentvalidation.net/) and [Entity Framework (Core)](https://github.com/aspnet/EntityFrameworkCore). I'll first set the scene: Show the EF Core Entity + Configuration + Fluent Validation we'll be working on. Next, I'll show the actual problem that emerges with this approach and in the end how can it be improved/solved.
@@ -24,7 +27,7 @@ In this post, I will share with you a solution to a problem that I see often whe
 
 When creating apps with EF Core and Fluent Validation, the validators can get out of sync with the entity configuration (field length, required and so on). I wanted an automatic way to find out when they do and the way I achieve it was by adding unit tests for the Validators.
 
-You can find the whole code over on GitHub: https://github.com/joaopgrassi/fluentvalidation-efcore-ruletesting. The interesting bits are `CustomerValidatorTests` and `TestExtensions`. 
+You can find the whole code over on [GitHub](https://github.com/joaopgrassi/fluentvalidation-efcore-ruletesting). The interesting bits are [CustomerValidatorTests.cs](https://github.com/joaopgrassi/fluentvalidation-efcore-ruletesting/blob/main/tests/Shop.API.Tests/CustomerValidatorTests.cs) and [TestExtensions.cs](https://github.com/joaopgrassi/fluentvalidation-efcore-ruletesting/blob/main/tests/Shop.API.Tests/TestExtensions.cs). 
 
 **Aside**: Fluent Validation is a well-known library in the .NET community for building strongly-typed validation rules. It's very common to see it being used in ASP.NET applications since it integrates quite nicely into the model-binding infrastructure. In case you are not familiar with Fluent Validation, I recommend you take a look at their [documentation](https://fluentvalidation.net/start) to learn more and come back later 😉
 
@@ -301,7 +304,7 @@ RuleFor(x => x.Surname)
  ```
  
  And indeed it does!
- ![Customer Validator out-of-sync with EF Model](/content/images/2019/12/Assert-validator-outofsync.png)
+ {{< img "*assert-validator-outofsync.png*" "Customer Validator out-of-sync with EF Model" >}}
 
 ## Conclusion
 

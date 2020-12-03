@@ -52,7 +52,7 @@ Before starting with our Azure pipeline, let's remember the steps to run the tes
 
 Now that we know the steps, let's re-create them on Azure Pipelines.
 
-## Creating our Azure Pipelines build <a id="pipeline-yaml"></a>
+## Creating our Azure Pipelines build {#pipeline-yaml}
 
 This is how our final pipeline yaml file looks like:
 
