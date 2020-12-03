@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>identityserver on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/identityserver/</link>
+    <description>Recent content in identityserver on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Mar 2019 21:57:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/identityserver/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Encapsulating getting access tokens from IdentityServer with a typed HttpClient and MessageHandler</title>
+      <link>https://blog.joaograssi.com/typed-httpclient-with-messagehandler-getting-accesstokens-from-identityserver/</link>
+      <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/typed-httpclient-with-messagehandler-getting-accesstokens-from-identityserver/</guid>
+      <description>Recently, I had to interact with an external API which is protected by JWT Bearer Tokens. For this, I had to get an access_token first and then set it to each request. But, this can get quite tedious very soon even if you just do it a few times. In the end, I wanted an implementation that encapsulated the need for developers to worry about getting access tokens prior to communicating with the API.</description>
+    </item>
+    
+  </channel>
+</rss>

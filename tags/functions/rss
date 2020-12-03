@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>functions on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/functions/</link>
+    <description>Recent content in functions on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 25 Aug 2019 17:08:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/functions/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Using Azure Key Vault references with Azure Functions or App Service</title>
+      <link>https://blog.joaograssi.com/using-azure-key-vault-references-with-azure-functions-appservice/</link>
+      <pubDate>Sun, 25 Aug 2019 17:08:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/using-azure-key-vault-references-with-azure-functions-appservice/</guid>
+      <description>TL;DR: If you are already familiar with Azure Key Vault, App Service/Functions and just want to know how to use the new Key Vault references feature in your app, you can just jump to this section: Create a system-assigned identity for our Function and follow from there.
+ASP.NET Core + Configuration By now, it&amp;rsquo;s not big news that ASP.NET Core is the future of web development with .NET. Of all the great additions that ASP.</description>
+    </item>
+    
+  </channel>
+</rss>

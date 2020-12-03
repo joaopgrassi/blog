@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Integration tests in ASP.NET Core on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/series/integration-tests-in-asp.net-core/</link>
+    <description>Recent content in Integration tests in ASP.NET Core on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Aug 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/series/integration-tests-in-asp.net-core/rss" rel="self" type="application/rss" />
+    <item>
+      <title>ASP.NET Core integration tests with docker-compose on Azure Pipelines</title>
+      <link>https://blog.joaograssi.com/asp-net-core-integration-tests-with-docker-compose-azure-pipelines/</link>
+      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/asp-net-core-integration-tests-with-docker-compose-azure-pipelines/</guid>
+      <description>This is the third post in the Integration tests in ASP.NET Core series.
+  Part 1: Limitations of the EF Core in-memory database providers
+  Part 2: Using docker-compose for your ASP.NET + EF Core integration tests
+  Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines (this post)
+  In the last post of the series we saw how to use SQL Server on Docker as the database for our integration tests during local development.</description>
+    </item>
+    
+    <item>
+      <title>Using docker-compose for your ASP.NET &#43; EF Core integration tests</title>
+      <link>https://blog.joaograssi.com/using-docker-compose-for-your-asp-net-ef-core-integration-tests/</link>
+      <pubDate>Thu, 13 Aug 2020 21:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/using-docker-compose-for-your-asp-net-ef-core-integration-tests/</guid>
+      <description>This is the second post in the Integration tests in ASP.NET Core series.
+  Part 1: Limitations of the EF Core in-memory database providers
+  Part 2: Using docker-compose for your ASP.NET + EF Core integration tests (this post)
+  Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines
+  In this post, we will be looking at how you can run the integration tests of an ASP.</description>
+    </item>
+    
+    <item>
+      <title>Limitations of the EF Core in-memory database providers</title>
+      <link>https://blog.joaograssi.com/limitations-ef-core-in-memory-database-providers/</link>
+      <pubDate>Sun, 09 Aug 2020 13:08:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/limitations-ef-core-in-memory-database-providers/</guid>
+      <description>This is the first post in the Integration tests in ASP.NET Core series.
+  Part 1: Limitations of the EF Core in-memory database providers (this post)
+  Part 2: Using docker-compose for your ASP.NET + EF Core integration tests
+  Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines
+  In this post we&amp;rsquo;ll be looking at some of the limitations you may encounter while using the EF Core in-memory database providers for your ASP.</description>
+    </item>
+    
+  </channel>
+</rss>

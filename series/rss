@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/series/</link>
+    <description>Recent content in Series on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Aug 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/series/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Integration tests in ASP.NET Core</title>
+      <link>https://blog.joaograssi.com/series/integration-tests-in-asp.net-core/</link>
+      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/series/integration-tests-in-asp.net-core/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

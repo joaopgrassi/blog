@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>redgate-sql-data-compare on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/redgate-sql-data-compare/</link>
+    <description>Recent content in redgate-sql-data-compare on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Aug 2018 20:41:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/redgate-sql-data-compare/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Syncing database data with PowerShell and  SQL Data Compare</title>
+      <link>https://blog.joaograssi.com/powershell-sql-data-compare-sync/</link>
+      <pubDate>Fri, 17 Aug 2018 20:41:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/powershell-sql-data-compare-sync/</guid>
+      <description>The database team at my current job had successfully integrated the databases into source control using Redgate SQL Source Control. Developers now have a local instance of the databases linked to Source Control and for them to add or change things it&amp;rsquo;s a breeze.
+The &amp;ldquo;adding databases into source control&amp;rdquo; statement is comprised of basically adding all the objects to source control. E.g. Tables, Views, Procedures and so on. Apart from adding database objects, there were also a couple of Tables identified as &amp;ldquo;Enum&amp;rdquo; tables.</description>
+    </item>
+    
+  </channel>
+</rss>

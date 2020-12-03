@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/</link>
+    <description>Recent content in Tags on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Aug 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
+    <item>
+      <title>asp.net-core</title>
+      <link>https://blog.joaograssi.com/tags/asp.net-core/</link>
+      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/asp.net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure-devops</title>
+      <link>https://blog.joaograssi.com/tags/azure-devops/</link>
+      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/azure-devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://blog.joaograssi.com/tags/docker/</link>
+      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>integration-tests</title>
+      <link>https://blog.joaograssi.com/tags/integration-tests/</link>
+      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/integration-tests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pipelines</title>
+      <link>https://blog.joaograssi.com/tags/pipelines/</link>
+      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/pipelines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>.net-core</title>
+      <link>https://blog.joaograssi.com/tags/.net-core/</link>
+      <pubDate>Thu, 13 Aug 2020 21:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/.net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entity-framework-core</title>
+      <link>https://blog.joaograssi.com/tags/entity-framework-core/</link>
+      <pubDate>Thu, 13 Aug 2020 21:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/entity-framework-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SQL</title>
+      <link>https://blog.joaograssi.com/tags/sql/</link>
+      <pubDate>Sun, 09 Aug 2020 13:08:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fluentvalidation</title>
+      <link>https://blog.joaograssi.com/tags/fluentvalidation/</link>
+      <pubDate>Tue, 31 Dec 2019 13:46:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/fluentvalidation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>appservice</title>
+      <link>https://blog.joaograssi.com/tags/appservice/</link>
+      <pubDate>Sun, 25 Aug 2019 17:08:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/appservice/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>azure</title>
+      <link>https://blog.joaograssi.com/tags/azure/</link>
+      <pubDate>Sun, 25 Aug 2019 17:08:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/azure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>functions</title>
+      <link>https://blog.joaograssi.com/tags/functions/</link>
+      <pubDate>Sun, 25 Aug 2019 17:08:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/functions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>key-vault</title>
+      <link>https://blog.joaograssi.com/tags/key-vault/</link>
+      <pubDate>Sun, 25 Aug 2019 17:08:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/key-vault/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>accesstokens</title>
+      <link>https://blog.joaograssi.com/tags/accesstokens/</link>
+      <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/accesstokens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>httpclient</title>
+      <link>https://blog.joaograssi.com/tags/httpclient/</link>
+      <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/httpclient/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>httpclientfactory</title>
+      <link>https://blog.joaograssi.com/tags/httpclientfactory/</link>
+      <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/httpclientfactory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identityserver</title>
+      <link>https://blog.joaograssi.com/tags/identityserver/</link>
+      <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/identityserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oauth</title>
+      <link>https://blog.joaograssi.com/tags/oauth/</link>
+      <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/oauth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>powershell</title>
+      <link>https://blog.joaograssi.com/tags/powershell/</link>
+      <pubDate>Fri, 17 Aug 2018 20:41:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/powershell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redgate-sql-data-compare</title>
+      <link>https://blog.joaograssi.com/tags/redgate-sql-data-compare/</link>
+      <pubDate>Fri, 17 Aug 2018 20:41:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/redgate-sql-data-compare/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://blog.joaograssi.com/tags/linux/</link>
+      <pubDate>Sun, 29 Apr 2018 15:22:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>oh-my-zsh</title>
+      <link>https://blog.joaograssi.com/tags/oh-my-zsh/</link>
+      <pubDate>Sun, 29 Apr 2018 15:22:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/oh-my-zsh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chrome-extension</title>
+      <link>https://blog.joaograssi.com/tags/chrome-extension/</link>
+      <pubDate>Mon, 19 Feb 2018 19:58:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/chrome-extension/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>env-guard</title>
+      <link>https://blog.joaograssi.com/tags/env-guard/</link>
+      <pubDate>Mon, 19 Feb 2018 19:58:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/env-guard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>front-end</title>
+      <link>https://blog.joaograssi.com/tags/front-end/</link>
+      <pubDate>Mon, 19 Feb 2018 19:58:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/front-end/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

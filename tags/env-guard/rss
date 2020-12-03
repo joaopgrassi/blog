@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>env-guard on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/env-guard/</link>
+    <description>Recent content in env-guard on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2018 19:58:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/env-guard/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Launching Env-Guard: No more mistakes in production!</title>
+      <link>https://blog.joaograssi.com/launching-env-guard/</link>
+      <pubDate>Mon, 19 Feb 2018 19:58:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/launching-env-guard/</guid>
+      <description>It has been almost two months now since I uploaded my first Chrome extension to the Chrome Store. And now, I finally have a Blog where I can officially talk about it with the world!
+TL;DR I have built a Chrome Extension to help developers avoid making mistakes while dealing with &amp;ldquo;Production Like&amp;rdquo; instances of their apps. Click here to see the links
+The problem My friends and I work in a Web application that is mainly an internal administration tool.</description>
+    </item>
+    
+  </channel>
+</rss>

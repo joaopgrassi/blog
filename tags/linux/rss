@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/linux/</link>
+    <description>Recent content in linux on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 15:22:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/linux/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Setting up Windows Subsystem for Linux with zsh &#43; oh-my-zsh &#43; ConEmu</title>
+      <link>https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/</link>
+      <pubDate>Sun, 29 Apr 2018 15:22:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/</guid>
+      <description>The era of .NET developers being constrained on using only Windows as a platform is gone. (At least for ASP.NET). That might be very cool to some, but also scary for others. Fear of change is true. Nevertheless, it&amp;rsquo;s definitely time (if not yet) to get out of the comfort zone and get your feet wet. Being able to work with .NET on Linux/Mac is one of the points that makes me agree 100% with Nick Craver that .</description>
+    </item>
+    
+  </channel>
+</rss>
