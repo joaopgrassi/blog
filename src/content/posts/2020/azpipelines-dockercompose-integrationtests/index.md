@@ -31,6 +31,8 @@ This is the third post in the [Integration tests in ASP.NET Core](/series/integr
 
 - [Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines (this post)](/asp-net-core-integration-tests-with-docker-compose-azure-pipelines)
 
+- [Part 4: ASP.NET Core integration tests with docker-compose on GitHub Actions](/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions)
+
 In the last post of the series we saw how to use SQL Server on Docker as the database for our integration tests during local development.
 
 In this post, we'll be continuing with the same code but I'll demonstrate how we can run the tests using `docker-compose` on Azure Pipelines as part of our CI builds.

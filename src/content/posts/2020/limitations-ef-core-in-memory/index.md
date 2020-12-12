@@ -28,6 +28,8 @@ This is the first post in the [Integration tests in ASP.NET Core](/series/integr
 
 - [Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines](/asp-net-core-integration-tests-with-docker-compose-azure-pipelines)
 
+- [Part 4: ASP.NET Core integration tests with docker-compose on GitHub Actions](/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions)
+
 In this post we'll be looking at some of the limitations you may encounter while using the EF Core in-memory database providers for your ASP.NET Core integration tests. I'll share some real-world problems I faced while working on production ASP.NET Core apps and how I worked around them so far.
 
 ## Introduction

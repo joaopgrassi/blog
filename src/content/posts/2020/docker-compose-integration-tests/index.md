@@ -31,6 +31,8 @@ This is the second post in the [Integration tests in ASP.NET Core](/series/integ
 
 - [Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines](/asp-net-core-integration-tests-with-docker-compose-azure-pipelines)
 
+- [Part 4: ASP.NET Core integration tests with docker-compose on GitHub Actions](/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions)
+
 In this post, we will be looking at how you can run the integration tests of an ASP.NET + EF Core app against a "full" SQL Server instead of using the in-memory database providers. We'll be looking at this from a local development perspective and expand on it later in the next posts.
 
 ## TL;DR
