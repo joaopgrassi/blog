@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/github/</link>
+    <description>Recent content in github on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Dec 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/github/rss" rel="self" type="application/rss" />
+    <item>
+      <title>ASP.NET Core integration tests with docker-compose on GitHub Actions</title>
+      <link>https://blog.joaograssi.com/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions/</link>
+      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions/</guid>
+      <description>This is the forth (and last) post in the Integration tests in ASP.NET Core series.
+  Part 1: Limitations of the EF Core in-memory database providers
+  Part 2: Using docker-compose for your ASP.NET + EF Core integration tests
+  Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines
+  Part 4: ASP.NET Core integration tests with docker-compose on GitHub Actions (this post)
+  In the previous post of the series we saw how to create and run our tests in a CI fashion using Azure Pipelines.</description>
+    </item>
+    
+  </channel>
+</rss>

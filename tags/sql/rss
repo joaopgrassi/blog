@@ -17,6 +17,7 @@
   Part 1: Limitations of the EF Core in-memory database providers (this post)
   Part 2: Using docker-compose for your ASP.NET + EF Core integration tests
   Part 3: ASP.NET Core integration tests with docker-compose on Azure Pipelines
+  Part 4: ASP.NET Core integration tests with docker-compose on GitHub Actions
   In this post we&amp;rsquo;ll be looking at some of the limitations you may encounter while using the EF Core in-memory database providers for your ASP.</description>
     </item>
     

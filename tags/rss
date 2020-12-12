@@ -6,13 +6,49 @@
     <description>Recent content in Tags on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Sat, 12 Dec 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
     <item>
       <title>asp.net-core</title>
       <link>https://blog.joaograssi.com/tags/asp.net-core/</link>
-      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
+      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/asp.net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://blog.joaograssi.com/tags/docker/</link>
+      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://blog.joaograssi.com/tags/github/</link>
+      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github-actions</title>
+      <link>https://blog.joaograssi.com/tags/github-actions/</link>
+      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/github-actions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>integration-tests</title>
+      <link>https://blog.joaograssi.com/tags/integration-tests/</link>
+      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/integration-tests/</guid>
       <description></description>
     </item>
     
@@ -22,24 +58,6 @@
       <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/azure-devops/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>docker</title>
-      <link>https://blog.joaograssi.com/tags/docker/</link>
-      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
-      
-      <guid>https://blog.joaograssi.com/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>integration-tests</title>
-      <link>https://blog.joaograssi.com/tags/integration-tests/</link>
-      <pubDate>Sat, 22 Aug 2020 14:27:00 +0000</pubDate>
-      
-      <guid>https://blog.joaograssi.com/tags/integration-tests/</guid>
       <description></description>
     </item>
     
