@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.joaograssi.com/tags/blogging/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/ghost/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/github-pages/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/hugo/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/meta/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/posts/2020/migrating-my-blog-from-ghost-to-hugo/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/posts/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/static-site-generator/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/</loc>
+    <lastmod>2020-12-13T14:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.joaograssi.com/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions/</loc>
     <lastmod>2020-12-12T14:27:00+00:00</lastmod>
   </url>
@@ -38,22 +88,7 @@
   </url>
   
   <url>
-    <loc>https://blog.joaograssi.com/</loc>
-    <lastmod>2020-12-12T14:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.joaograssi.com/posts/</loc>
-    <lastmod>2020-12-12T14:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.joaograssi.com/series/</loc>
-    <lastmod>2020-12-12T14:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.joaograssi.com/tags/</loc>
     <lastmod>2020-12-12T14:27:00+00:00</lastmod>
   </url>
   
