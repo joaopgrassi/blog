@@ -5,12 +5,12 @@ All markdown (.md) files inside the `content/posts` directory are licensed under
 
 1. The canonical link is directed towards the original article, e.g.
    `<link rel="canonical" href="https://blog.joaograssi.com/asp-net-core-integration-tests-with-docker-compose-azure-pipelines/" />`
-2. The following message is displayed in a visable way above and below the article:
+2. The following message is displayed in a visible way above and below the article:
    `This article has been originally published on <a href="https://blog.joaograssi.com/">Joao Grassi's Blog</a>.`
 
 # Images
 
-The images inside the `content/*` and `static/content/*` are part of blog posts. The images can be classified in two categories: 
+The images inside the `content/*` and `static/content/*` are part of blog posts. The images can be classified into two categories: 
 
 ## Post cover images
 
@@ -23,7 +23,7 @@ The credit of these images is located at the end of the belonging post, in the f
 ## Screenshots
 
 There are images of screenshots of applications described in the posts. An example of a screenshot might be a screenshot of a configuration page in the Azure Portal (`src/content/posts/2019/keyvault-references-with-azure-functions/adding-accesspolicy.png`
-). I don't own the application where the screenshot is shown so no license is attributed to these type of images.
+). I don't own the application where the screenshot is shown so no license is attributed to these types of images.
 
 # Other files
 
