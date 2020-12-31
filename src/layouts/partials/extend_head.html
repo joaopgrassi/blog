@@ -1,8 +1,0 @@
-<!-- Custom styles -->
-{{- $custom := resources.Get "css/custom.css" }}
-
-{{- $customStyleSheet := slice $custom | resources.Concat "assets/css/custom_blog.css" | minify | fingerprint -}}
-<link 
-    href="{{ $customStyleSheet.Permalink }}"
-    integrity="{{ $customStyleSheet.Data.Integrity }}" 
-    rel="preload stylesheet" as="style">
