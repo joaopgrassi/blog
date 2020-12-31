@@ -3,7 +3,7 @@
 title: "Migrating my blog from Ghost to Hugo"
 # recommended 156 chars
 description: "In this meta post I'll talk about my recent experience of migrating my blog from a self-hosted Ghost to Hugo."
-date: 2020-12-13T14:27:00+00:00
+date: 2020-12-31T15:11:00+00:00
 tags: ["blogging", "ghost", "github pages", "static site generator", "hugo", "meta"]
 author: "Joao Grassi"
 showToc: true
