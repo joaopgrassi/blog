@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.joaograssi.com/tags/asp.net-core/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/authorization/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/series/authorization-in-asp.net-core/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/identityserver/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/permissions/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/posts/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/security/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/series/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/tags/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.joaograssi.com/posts/2021/asp-net-core-permission-based-authorization-middleware/</loc>
+    <lastmod>2021-03-06T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.joaograssi.com/tags/blogging/</loc>
     <lastmod>2020-12-31T15:11:00+00:00</lastmod>
   </url>
@@ -23,11 +78,6 @@
   </url>
   
   <url>
-    <loc>https://blog.joaograssi.com/</loc>
-    <lastmod>2020-12-31T15:11:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.joaograssi.com/tags/meta/</loc>
     <lastmod>2020-12-31T15:11:00+00:00</lastmod>
   </url>
@@ -38,27 +88,12 @@
   </url>
   
   <url>
-    <loc>https://blog.joaograssi.com/posts/</loc>
-    <lastmod>2020-12-31T15:11:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.joaograssi.com/tags/static-site-generator/</loc>
     <lastmod>2020-12-31T15:11:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.joaograssi.com/tags/</loc>
-    <lastmod>2020-12-31T15:11:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.joaograssi.com/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions/</loc>
-    <lastmod>2020-12-12T14:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.joaograssi.com/tags/asp.net-core/</loc>
     <lastmod>2020-12-12T14:27:00+00:00</lastmod>
   </url>
   
@@ -84,11 +119,6 @@
   
   <url>
     <loc>https://blog.joaograssi.com/tags/integration-tests/</loc>
-    <lastmod>2020-12-12T14:27:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.joaograssi.com/series/</loc>
     <lastmod>2020-12-12T14:27:00+00:00</lastmod>
   </url>
   
@@ -184,11 +214,6 @@
   
   <url>
     <loc>https://blog.joaograssi.com/tags/httpclientfactory/</loc>
-    <lastmod>2019-03-06T21:57:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.joaograssi.com/tags/identityserver/</loc>
     <lastmod>2019-03-06T21:57:00+00:00</lastmod>
   </url>
   

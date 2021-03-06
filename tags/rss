@@ -6,7 +6,52 @@
     <description>Recent content in Tags on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 31 Dec 2020 15:11:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Sat, 06 Mar 2021 16:30:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
+    <item>
+      <title>asp.net-core</title>
+      <link>https://blog.joaograssi.com/tags/asp.net-core/</link>
+      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/asp.net-core/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>authorization</title>
+      <link>https://blog.joaograssi.com/tags/authorization/</link>
+      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/authorization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identityserver</title>
+      <link>https://blog.joaograssi.com/tags/identityserver/</link>
+      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/identityserver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>permissions</title>
+      <link>https://blog.joaograssi.com/tags/permissions/</link>
+      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/permissions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://blog.joaograssi.com/tags/security/</link>
+      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blogging</title>
       <link>https://blog.joaograssi.com/tags/blogging/</link>
@@ -58,15 +103,6 @@
       <pubDate>Thu, 31 Dec 2020 15:11:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/static-site-generator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>asp.net-core</title>
-      <link>https://blog.joaograssi.com/tags/asp.net-core/</link>
-      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
-      
-      <guid>https://blog.joaograssi.com/tags/asp.net-core/</guid>
       <description></description>
     </item>
     
@@ -220,15 +256,6 @@
       <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/httpclientfactory/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>identityserver</title>
-      <link>https://blog.joaograssi.com/tags/identityserver/</link>
-      <pubDate>Wed, 06 Mar 2019 21:57:00 +0000</pubDate>
-      
-      <guid>https://blog.joaograssi.com/tags/identityserver/</guid>
       <description></description>
     </item>
     

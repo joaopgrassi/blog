@@ -6,7 +6,16 @@
     <description>Recent content in Series on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/series/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Sat, 06 Mar 2021 16:30:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/series/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Authorization in ASP.NET Core</title>
+      <link>https://blog.joaograssi.com/series/authorization-in-asp.net-core/</link>
+      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/series/authorization-in-asp.net-core/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Integration tests in ASP.NET Core</title>
       <link>https://blog.joaograssi.com/series/integration-tests-in-asp.net-core/</link>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authorization in ASP.NET Core on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/series/authorization-in-asp.net-core/</link>
+    <description>Recent content in Authorization in ASP.NET Core on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 Mar 2021 16:30:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/series/authorization-in-asp.net-core/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Using a middleware to build a permission-based identity in ASP.NET Core</title>
+      <link>https://blog.joaograssi.com/posts/2021/asp-net-core-permission-based-authorization-middleware/</link>
+      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/posts/2021/asp-net-core-permission-based-authorization-middleware/</guid>
+      <description>This post is the first in a series about Authorization in ASP.NET Core. I&amp;rsquo;ll guide you through a series of approaches you can use to implement authorization in your ASP.NET Core APIs, focusing on advanced/real-world scenarios. Here&amp;rsquo;s a sneak peek for what I plan to show you:
+ Where to store and resolve authorization-like data How to protect your API endpoints using permission-based authorization using the built-in types in the framework Reduce duplication and make things smarter by implementing a custom Authentication Handler.</description>
+    </item>
+    
+  </channel>
+</rss>
