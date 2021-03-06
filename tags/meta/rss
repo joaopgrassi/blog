@@ -6,11 +6,11 @@
     <description>Recent content in meta on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 13 Dec 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/meta/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Thu, 31 Dec 2020 15:11:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/meta/rss" rel="self" type="application/rss" />
     <item>
       <title>Migrating my blog from Ghost to Hugo</title>
       <link>https://blog.joaograssi.com/posts/2020/migrating-my-blog-from-ghost-to-hugo/</link>
-      <pubDate>Sun, 13 Dec 2020 14:27:00 +0000</pubDate>
+      <pubDate>Thu, 31 Dec 2020 15:11:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/posts/2020/migrating-my-blog-from-ghost-to-hugo/</guid>
       <description>In this post I&amp;rsquo;ll talk about my recent experience of migrating this very single blog from Ghost to Hugo. More specifically, I want to talk about: Why I decided to migrate; What were the pain points; What were the good points and something about hosting.
