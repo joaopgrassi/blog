@@ -249,10 +249,12 @@ And a controller with the following code:
 
 ```csharp
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("users")]
     public class UserController : ControllerBase
