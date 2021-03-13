@@ -304,7 +304,9 @@ We started the post by discussing the differences between **Authentication** & *
 
 Next, I showed you a simple model for permission-based authorization, and a custom middleware responsible for creating a `ClaimsIdentity` containing all the user permissions.
 
-Coming up next, we'll see how we can use the built-in policy authorization in ASP.NET Core to protect our endpoints with the permissions we prepared in this post.
+~~Coming up next, we'll see how we can use the built-in policy authorization in ASP.NET Core to protect our endpoints with the permissions we prepared in this post.~~
+
+Coming up next, I'll take you on a deep dive into the waters of policy-based authorization in ASP.NET Core.
 
 Some of the topics here might be new to you (or not so clear?), so I encourage you to clone the project on GitHub and debug it to see how things work. The most important part for this post is the Middleware: [PermissionsMiddleware.cs](https://github.com/joaopgrassi/authz-custom-middleware/blob/main/src/API/Authorization/PermissionsMiddleware.cs). Pay attention to where we fetch the permissions. Inspect the `context.User` property to see all the stuff inside.
 
