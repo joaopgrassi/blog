@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 06 Mar 2021 16:30:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Mon, 15 Mar 2021 22:30:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
     <item>
       <title>asp.net-core</title>
       <link>https://blog.joaograssi.com/tags/asp.net-core/</link>
-      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/asp.net-core/</guid>
       <description></description>
@@ -19,9 +19,45 @@
     <item>
       <title>authorization</title>
       <link>https://blog.joaograssi.com/tags/authorization/</link>
-      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
+      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/authorization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>claims-based</title>
+      <link>https://blog.joaograssi.com/tags/claims-based/</link>
+      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/claims-based/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>middleware</title>
+      <link>https://blog.joaograssi.com/tags/middleware/</link>
+      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/middleware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>role-based</title>
+      <link>https://blog.joaograssi.com/tags/role-based/</link>
+      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/role-based/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://blog.joaograssi.com/tags/security/</link>
+      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/security/</guid>
       <description></description>
     </item>
     
@@ -40,15 +76,6 @@
       <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/permissions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://blog.joaograssi.com/tags/security/</link>
-      <pubDate>Sat, 06 Mar 2021 16:30:00 +0000</pubDate>
-      
-      <guid>https://blog.joaograssi.com/tags/security/</guid>
       <description></description>
     </item>
     
