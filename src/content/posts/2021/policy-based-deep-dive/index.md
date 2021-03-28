@@ -29,7 +29,9 @@ This is the second post in the [Authorization in ASP.NET Core](/series/authoriza
 
 - [Part 1: Using a middleware to build a permission-based identity in ASP.NET Core](/posts/2021/asp-net-core-permission-based-authorization-middleware)
 
-- [Part 2: Deep dive into policy-based authorization in ASP.NET Core](/posts/2021/asp-net-core-deep-dive-policy-based-authorization)
+- [Part 2: Deep dive into policy-based authorization in ASP.NET Core (this post)](/posts/2021/asp-net-core-deep-dive-policy-based-authorization)
+
+- [Part 3: Protecting your API endpoints with dynamic policies in ASP.NET Core](/posts/2021/asp-net-core-protecting-api-endpoints-with-dynamic-policies)
 
 
 In the previous post, we set the foundation by creating a `ClaimsIdentity` containing all the logged-in user permissions with the help of a custom middleware. 
