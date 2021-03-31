@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>permission-based-authorization on Joao Grassi&#39;s blog</title>
+    <link>https://blog.joaograssi.com/tags/permission-based-authorization/</link>
+    <description>Recent content in permission-based-authorization on Joao Grassi&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Mar 2021 21:21:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/permission-based-authorization/rss" rel="self" type="application/rss" />
+    <item>
+      <title>Protecting your API endpoints with dynamic policies in ASP.NET Core</title>
+      <link>https://blog.joaograssi.com/posts/2021/asp-net-core-protecting-api-endpoints-with-dynamic-policies/</link>
+      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/posts/2021/asp-net-core-protecting-api-endpoints-with-dynamic-policies/</guid>
+      <description>This is the third post in the Authorization in ASP.NET Core series.
+  Part 1: Using a middleware to build a permission-based identity in ASP.NET Core
+  Part 2: Deep dive into policy-based authorization in ASP.NET Core
+  Part 3: Protecting your API endpoints with dynamic policies in ASP.NET Core (this post)
+  In this post, we&amp;rsquo;ll come full circle. I&amp;rsquo;ll show you how to put everything together and start authorizing API endpoints with permissions.</description>
+    </item>
+    
+  </channel>
+</rss>

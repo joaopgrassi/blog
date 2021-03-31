@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Mar 2021 22:30:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Wed, 31 Mar 2021 21:21:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss" />
     <item>
       <title>asp.net-core</title>
       <link>https://blog.joaograssi.com/tags/asp.net-core/</link>
-      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
+      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/asp.net-core/</guid>
       <description></description>
@@ -19,9 +19,36 @@
     <item>
       <title>authorization</title>
       <link>https://blog.joaograssi.com/tags/authorization/</link>
-      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
+      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/authorization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>permission-based-authorization</title>
+      <link>https://blog.joaograssi.com/tags/permission-based-authorization/</link>
+      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/permission-based-authorization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>policies</title>
+      <link>https://blog.joaograssi.com/tags/policies/</link>
+      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/policies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://blog.joaograssi.com/tags/security/</link>
+      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/security/</guid>
       <description></description>
     </item>
     
@@ -49,15 +76,6 @@
       <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/role-based/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>security</title>
-      <link>https://blog.joaograssi.com/tags/security/</link>
-      <pubDate>Mon, 15 Mar 2021 22:30:00 +0000</pubDate>
-      
-      <guid>https://blog.joaograssi.com/tags/security/</guid>
       <description></description>
     </item>
     
