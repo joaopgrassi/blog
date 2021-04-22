@@ -6,7 +6,7 @@
     <description>Recent content in entity-framework-core on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Aug 2020 21:21:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/entity-framework-core/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Thu, 13 Aug 2020 21:21:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/entity-framework-core/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Using docker-compose for your ASP.NET &#43; EF Core integration tests</title>
       <link>https://blog.joaograssi.com/using-docker-compose-for-your-asp-net-ef-core-integration-tests/</link>

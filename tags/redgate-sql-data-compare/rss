@@ -6,7 +6,7 @@
     <description>Recent content in redgate-sql-data-compare on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Aug 2018 20:41:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/redgate-sql-data-compare/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Fri, 17 Aug 2018 20:41:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/redgate-sql-data-compare/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Syncing database data with PowerShell and  SQL Data Compare</title>
       <link>https://blog.joaograssi.com/powershell-sql-data-compare-sync/</link>

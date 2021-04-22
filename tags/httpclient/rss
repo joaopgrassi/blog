@@ -6,7 +6,7 @@
     <description>Recent content in httpclient on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Mar 2019 21:57:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/httpclient/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Wed, 06 Mar 2019 21:57:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/httpclient/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Encapsulating getting access tokens from IdentityServer with a typed HttpClient and MessageHandler</title>
       <link>https://blog.joaograssi.com/typed-httpclient-with-messagehandler-getting-accesstokens-from-identityserver/</link>

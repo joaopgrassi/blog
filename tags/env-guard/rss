@@ -6,7 +6,7 @@
     <description>Recent content in env-guard on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Feb 2018 19:58:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/env-guard/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Mon, 19 Feb 2018 19:58:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/env-guard/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Launching Env-Guard: No more mistakes in production!</title>
       <link>https://blog.joaograssi.com/launching-env-guard/</link>

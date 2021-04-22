@@ -6,7 +6,7 @@
     <description>Recent content in key-vault on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Aug 2019 17:08:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/key-vault/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Sun, 25 Aug 2019 17:08:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/key-vault/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Using Azure Key Vault references with Azure Functions or App Service</title>
       <link>https://blog.joaograssi.com/using-azure-key-vault-references-with-azure-functions-appservice/</link>

@@ -6,7 +6,7 @@
     <description>Recent content in pipelines on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 22 Aug 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/pipelines/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Sat, 22 Aug 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/pipelines/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>ASP.NET Core integration tests with docker-compose on Azure Pipelines</title>
       <link>https://blog.joaograssi.com/asp-net-core-integration-tests-with-docker-compose-azure-pipelines/</link>

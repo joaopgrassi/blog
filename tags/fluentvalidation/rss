@@ -6,7 +6,7 @@
     <description>Recent content in fluentvalidation on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 31 Dec 2019 13:46:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/fluentvalidation/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Tue, 31 Dec 2019 13:46:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/fluentvalidation/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>Unit testing Fluent Validation rules against EF Core entity configuration</title>
       <link>https://blog.joaograssi.com/unit-testing-fluent-validation-rules-against-your-ef-core-model/</link>

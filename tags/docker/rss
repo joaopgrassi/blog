@@ -6,7 +6,7 @@
     <description>Recent content in docker on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/docker/rss" rel="self" type="application/rss" />
+    <lastBuildDate>Sat, 12 Dec 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/docker/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>ASP.NET Core integration tests with docker-compose on GitHub Actions</title>
       <link>https://blog.joaograssi.com/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions/</link>
