@@ -6,7 +6,21 @@
     <description>Recent content in integration-tests on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Dec 2020 14:27:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/integration-tests/rss" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 20:21:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/integration-tests/rss" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding integration tests for permission-protected API endpoints in ASP.NET Core</title>
+      <link>https://blog.joaograssi.com/posts/2021/asp-net-core-testing-permission-protected-api-endpoints/</link>
+      <pubDate>Wed, 12 May 2021 20:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/posts/2021/asp-net-core-testing-permission-protected-api-endpoints/</guid>
+      <description>This is the forth post in the Authorization in ASP.NET Core series.
+  Part 1: Using a middleware to build a permission-based identity in ASP.NET Core
+  Part 2: Deep dive into policy-based authorization in ASP.NET Core
+  Part 3: Protecting your API endpoints with dynamic policies in ASP.NET Core
+  Part 4: Adding integration tests for permission-protected API endpoints in ASP.NET Core (this post)
+  In the previous post I demonstrated an approach to add authorization to our API endpoints.</description>
+    </item>
+    
     <item>
       <title>ASP.NET Core integration tests with docker-compose on GitHub Actions</title>
       <link>https://blog.joaograssi.com/posts/2020/asp-net-core-integration-tests-with-docker-compose-github-actions/</link>

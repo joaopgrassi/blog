@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Joao Grassi&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Mar 2021 21:21:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 May 2021 20:21:00 +0000</lastBuildDate><atom:link href="https://blog.joaograssi.com/tags/rss" rel="self" type="application/rss+xml" />
     <item>
       <title>asp.net-core</title>
       <link>https://blog.joaograssi.com/tags/asp.net-core/</link>
-      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      <pubDate>Wed, 12 May 2021 20:21:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/asp.net-core/</guid>
       <description></description>
@@ -19,16 +19,25 @@
     <item>
       <title>authorization</title>
       <link>https://blog.joaograssi.com/tags/authorization/</link>
-      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      <pubDate>Wed, 12 May 2021 20:21:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/authorization/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>integration-tests</title>
+      <link>https://blog.joaograssi.com/tags/integration-tests/</link>
+      <pubDate>Wed, 12 May 2021 20:21:00 +0000</pubDate>
+      
+      <guid>https://blog.joaograssi.com/tags/integration-tests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>permission-based-authorization</title>
       <link>https://blog.joaograssi.com/tags/permission-based-authorization/</link>
-      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      <pubDate>Wed, 12 May 2021 20:21:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/permission-based-authorization/</guid>
       <description></description>
@@ -37,7 +46,7 @@
     <item>
       <title>policies</title>
       <link>https://blog.joaograssi.com/tags/policies/</link>
-      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      <pubDate>Wed, 12 May 2021 20:21:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/policies/</guid>
       <description></description>
@@ -46,7 +55,7 @@
     <item>
       <title>security</title>
       <link>https://blog.joaograssi.com/tags/security/</link>
-      <pubDate>Wed, 31 Mar 2021 21:21:00 +0000</pubDate>
+      <pubDate>Wed, 12 May 2021 20:21:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/security/</guid>
       <description></description>
@@ -175,15 +184,6 @@
       <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
       
       <guid>https://blog.joaograssi.com/tags/github-actions/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>integration-tests</title>
-      <link>https://blog.joaograssi.com/tags/integration-tests/</link>
-      <pubDate>Sat, 12 Dec 2020 14:27:00 +0000</pubDate>
-      
-      <guid>https://blog.joaograssi.com/tags/integration-tests/</guid>
       <description></description>
     </item>
     

@@ -17,6 +17,7 @@
   Part 1: Using a middleware to build a permission-based identity in ASP.NET Core
   Part 2: Deep dive into policy-based authorization in ASP.NET Core (this post)
   Part 3: Protecting your API endpoints with dynamic policies in ASP.NET Core
+  Part 4: Adding integration tests for permission-protected API endpoints in ASP.NET Core
   In the previous post, we set the foundation by creating a ClaimsIdentity containing all the logged-in user permissions with the help of a custom middleware.</description>
     </item>
     
