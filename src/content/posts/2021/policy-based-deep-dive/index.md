@@ -33,6 +33,8 @@ This is the second post in the [Authorization in ASP.NET Core](/series/authoriza
 
 - [Part 3: Protecting your API endpoints with dynamic policies in ASP.NET Core](/posts/2021/asp-net-core-protecting-api-endpoints-with-dynamic-policies)
 
+- [Part 4: Adding integration tests for permission-protected API endpoints in ASP.NET Core](/posts/2021/asp-net-core-testing-permission-protected-api-endpoints)
+
 
 In the previous post, we set the foundation by creating a `ClaimsIdentity` containing all the logged-in user permissions with the help of a custom middleware. 
 

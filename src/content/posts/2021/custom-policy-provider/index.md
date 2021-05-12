@@ -34,6 +34,8 @@ This is the third post in the [Authorization in ASP.NET Core](/series/authorizat
 
 - [Part 3: Protecting your API endpoints with dynamic policies in ASP.NET Core (this post)](/posts/2021/asp-net-core-protecting-api-endpoints-with-dynamic-policies)
 
+- [Part 4: Adding integration tests for permission-protected API endpoints in ASP.NET Core](/posts/2021/asp-net-core-testing-permission-protected-api-endpoints)
+
 In this post, we'll come full circle. I'll show you how to put everything together and start authorizing API endpoints with permissions.
 
 ## TL;DR
