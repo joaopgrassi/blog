@@ -23,6 +23,7 @@ cover:
 
 resources:
 - src: 'request_authorization.png'
+- src: 'request_authorization_dark.png'
 
 ---
 
@@ -299,7 +300,7 @@ The test is simple but it gives us so much value. Now we are sure that:
 
 Putting all together in a diagram, the "flow" looks more or less like this:
 
-{{< img "*request_authorization*" "Flow of testing a protected endpoint" >}}
+{{< img "*request_authorization*" "Flow of testing a protected endpoint" "*request_authorization_dark*">}}
 
 That's it. Now we can add all sorts of tests and combinations as we see fit.
 

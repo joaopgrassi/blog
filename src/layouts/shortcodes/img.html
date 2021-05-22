@@ -1,6 +1,22 @@
-{{ $img := $.Page.Resources.GetMatch (.Get 0)}}
+{{ $img := $.Page.Resources.GetMatch (.Get 0) }}
+{{ $imgDark := $.Page.Resources.GetMatch (.Get 2) }}
+
+{{- if $imgDark }}
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        if (!document.body.classList.contains('dark')) {
+            return;
+        }
+        
+        let img = document.getElementById("{{ $img.Name }}")
+        if ("{{ $imgDark }}") {
+            img.src = "{{ $imgDark.RelPermalink | safeURL }}";
+        }
+    });
+</script>
+{{- end }}
 
 <figure class="figure-border">
-    <img class="img-center" src="{{ $img.RelPermalink | safeURL }}" alt="{{(.Get 1)}}" loading="lazy">
+    <img id="{{ $img.Name }}" class="img-center" src="{{ $img.RelPermalink | safeURL }}" alt="{{(.Get 1)}}" loading="lazy">
     <figcaption class="img-caption">{{(.Get 1)}}</figcaption>
 </figure>
