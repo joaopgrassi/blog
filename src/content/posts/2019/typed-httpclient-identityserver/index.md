@@ -22,6 +22,13 @@ resources:
 - src: 'phone-call-diagram-2.svg'
 ---
 
+### Update 18. Dec 2021:
+
+The repo on GitHub has been updated to .NET 6. I also "containerized" all the apps so it's easier to run them.
+Make sure to check it out! [httpclient-token-identityserver](https://github.com/joaopgrassi/httpclient-token-identityserver)
+
+---
+
 Recently, I had to interact with an external API which is protected by JWT Bearer Tokens. For this, I had to get an access_token first and then set it to each request. But, this can get quite tedious very soon even if you just do it a few times. In the end, I wanted an implementation that encapsulated the need for developers to worry about getting access tokens prior to communicating with the API.
 
 In this post I'll demonstrate how we can use the HttpClientFactory introduced back on ASP.NET Core 2.1 in conjunction with typed HttpClients and MessageHandlers, to achieve a nice and easy API abstraction over an external service.
