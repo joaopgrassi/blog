@@ -56,14 +56,14 @@ params:
         Title: Joao Grassi's Blog
         Content: My errands in software development. Mostly .NET stuff, with a bit of front-end here and there.
   socialIcons:
+        - name: "mastodon"
+          url: "https://fosstodon.org/@jotagrassi"
         - name: "twitter"
           url: "https://twitter.com/jotagrassi"
         - name: "github"
           url: "https://github.com/joaopgrassi"
         - name: "stackoverflow"
           url: "https://stackoverflow.com/users/2689390/jpgrassi"
-        - name: "keybase"
-          url: "https://keybase.io/joaopgrassi"
         - name: "rss"
           url: "rss"
 
